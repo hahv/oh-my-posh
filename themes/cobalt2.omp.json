@@ -5,6 +5,14 @@
       "alignment": "left",
       "segments": [
         {
+          "background": "#906cff",
+          "foreground": "#100e23",
+          "powerline_symbol": "\ue0b0",
+          "style": "powerline",
+          "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
+          "type": "python"
+        },
+        {
           "background": "#1478DB",
           "foreground": "#000000",
           "leading_diamond": "\ue0b6",
