@@ -10,7 +10,8 @@
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
           "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
-          "type": "python"
+          "type": "python",
+          "display_mode": "context"
         },
         {
           "background": "#1478DB",
