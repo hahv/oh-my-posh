@@ -5,21 +5,18 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "#546E7A",
           "foreground": "#26C6DA",
           "style": "plain",
           "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}} \ue0b1",
           "type": "os"
         },
         {
-          "background": "#546E7A",
           "foreground": "#26C6DA",
           "style": "plain",
           "template": " \uf0e7 ",
           "type": "root"
         },
         {
-          "background": "#546E7A",
           "foreground": "#26C6DA",
           "properties": {
             "style": "full"
@@ -29,7 +26,6 @@
           "type": "path"
         },
         {
-          "background": "#546E7A",
           "foreground": "#D4E157",
           "style": "plain",
           "template": "<#26C6DA>\ue0b1 </>{{ .HEAD }} ",
@@ -48,14 +44,6 @@
     {
       "alignment": "right",
       "segments": [
-        {
-          "background": "#546E7A",
-          "foreground": "#D4E157",
-          "leading_diamond": "\ue0b2",
-          "style": "diamond",
-          "template": " {{ .UserName }}@{{ .HostName }} <#26C6DA>\ue0b3</> ",
-          "type": "session"
-        },
         {
           "background": "#546E7A",
           "foreground": "#D4E157",
@@ -83,11 +71,11 @@
           },
           "style": "plain",
           "template": "\u276f ",
-          "type": "exit"
+          "type": "status"
         }
       ],
       "type": "prompt"
     }
   ],
-  "version": 2
+  "version": 3
 }
